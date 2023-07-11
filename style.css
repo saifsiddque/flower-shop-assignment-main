@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    background-color: rgb(250, 221, 225);
+}
+header div{
+    width: 50%;
+}
+.text{
+    padding: 50px 65px;
+}
+header h1{
+    font-size: 35px;
+}
+p {
+    font-size: 13px;
+    color: gray;
+}
+ button{
+    padding: 10px 20px;
+    background-color: rgb(253, 113, 136);
+    border-radius: 3px;
+    border: none;
+    color: white;
+}
+header img{
+    width: 70%;
+    margin: auto;
+}
+main{
+    text-align: center;
+    /* margin: 0 40px; */
+}
+.flowers{
+    display: flex;
+    gap: 20px;
+    padding: 0 60px;
+    text-align: center;
+}
+.flower1{
+    background-color:rgb(251, 154, 170) ;
+    border-top-left-radius: 40% ;
+    border-top-right-radius: 40% ;
+    height: 380px;
+    position: relative;
+    width: 35%;
+    text-align: center;
+    
+}
+.flower2{
+    background-color:rgb(169, 168, 168) ;
+    border-top-left-radius: 40% ;
+    border-top-right-radius: 40% ;
+    position: relative;
+    width: 35%;
+    height: 380px;
+    text-align: center;
+    
+}
+.flower3{
+    background-color:rgb(251, 244, 154) ;
+    border-top-left-radius: 40% ;
+    border-top-right-radius: 40% ;
+    height: 380px;
+    width: 35%;
+    position: relative;
+    text-align: center;
+}
+.flowers img{
+    width: 80%;
+    margin-top: 40px;
+    
+}
+.flowers h3{
+    position: absolute;
+    bottom: -72px;
+    font-size: 15px;
+    left: 30%;
+    text-decoration: underline;
+}
+.singup{
+    margin-top: 150px;
+    padding: 50px 80px;
+    background-color: #f1f1f1;
+    display: flex;
+    position: relative;
+}
+.singup .left {
+    padding-top: 60px;
+}
+.singup img{
+    width: 80%;
+}
+.fools{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.fools img{
+   width: 20%;
+}
+.subscribe{
+    background-image: url('./Flower Asset/Rectangle\ 9.png');
+    
+    padding: 50px;
+}
+input{
+    height: 32px;
+    border: none;
+    padding-left:10px ;
+}
+footer{
+    text-align: center;
+    padding: 20px 0px;
+    background-color: black;
+    color: white;
+}
+span{
+    color: red;
+
+}
+.team_members .boxes{
+    display: flex;
+}
+.team_members .box{
+    width: 25%;
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid;
+    border: 1px ;
+    box-shadow: 0px 0px 15px 1px gray;
+}
+.team_members .box img{
+    width: 200px;
+    height: 250px;
+    border-radius:50% ;
+    border: 5px solid silver;
+}
