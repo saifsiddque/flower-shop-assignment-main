@@ -70,7 +70,7 @@ main{
     text-align: center;
 }
 .flowers img{
-    width: 80%;
+    height: 80%;
     margin-top: 40px;
     
 }
@@ -104,7 +104,8 @@ main{
    width: 20%;
 }
 .subscribe{
-    margin: 0 70px;
+    margin: 0 70
+    px;
     background-image: url('./Flower Asset/Rectangle\ 9.png');
     
     padding: 50px;
